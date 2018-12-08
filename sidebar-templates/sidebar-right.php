@@ -5,7 +5,7 @@
  * @package denver
  */
 
-if ( is_shop() ) {
+if ( is_shop() || is_cart() || is_checkout()) {
 	$denver_sidebar = 'shop-sidebar';
 } else {
 	$denver_sidebar = 'right-sidebar';
